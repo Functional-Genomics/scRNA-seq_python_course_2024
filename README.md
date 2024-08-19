@@ -15,5 +15,5 @@ Unix/macOS
 credit:
 
 - materials: Hugo Tavares, Universiy of Cambridge, UK
-- conversions: Diana Yu, EMBL-EBI, UK
+- conversions: Diana Yu, EMBL-EBI, UK, note that the Python scripts are converted from R scripts by Hugo Tavares
 - envs: Yuyao Song, EMBL-EBI, UK
