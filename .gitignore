@@ -1,1 +1,4 @@
+*.h5ad
+*.RDS
+*.ipynb_checkpoints/
 .venv/
