@@ -9,13 +9,13 @@ Contributor: Hugo Tavares
 
 To run the scripts for generating counts from raw fastq files `Demonstrations/01_*.sh`, please install CellRanger using [these instructions](https://www.10xgenomics.com/support/software/cell-ranger/latest/tutorials/cr-tutorial-in).
 
-To run all the other demo notebooks, follow the instructions below. 
+To run all the other demo notebooks, follow the instructions below. It walks you through creating and using a container that has all the packages needed to run the demo notebooks.
 
 
-1. Install Docker or Singularity  
-	- Singularity works best in an HPC environment as a regular HPC user.  Check if your institute's HPC already has it.  
+1. Install [Docker](https://docs.docker.com/engine/install/) or [Singularity](https://docs.sylabs.io/guides/3.0/user-guide/installation.html)  
+	- Singularity is best for an HPC environment as a regular HPC user.  Check if your institute's HPC already has it.  
 	- Docker might be easier to install in your local machine, depending on your machine.  
-2. Pull the training environment image that Andrian Yang built , [here](https://github.com/andr-kun/scRNAseq2024-container/pkgs/container/scrnaseq2024-container).  This image is based on the official scanpy image [gcfntnu:/scanpy:latest](https://hub.docker.com/layers/gcfntnu/scanpy/latest/images/sha256-368ed6c468c13d8f205a2831c7815777f2f51179f5ea1c1c78800f6b3e04c475?context=explore).
+2. Pull the prebuilt training image that Andrian Yang built, [here](https://github.com/andr-kun/scRNAseq2024-container/pkgs/container/scrnaseq2024-container).  This image is based on the official scanpy image [gcfntnu:/scanpy:latest](https://hub.docker.com/layers/gcfntnu/scanpy/latest/images/sha256-368ed6c468c13d8f205a2831c7815777f2f51179f5ea1c1c78800f6b3e04c475?context=explore).
 	- If using Signularity, do: 
 	```
 	singularity pull scrnaseq2024.sif docker://ghcr.io/andr-kun/scrnaseq2024-container:latest
