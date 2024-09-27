@@ -9,7 +9,7 @@ Contributor: Hugo Tavares
 
 To run the scripts for generating counts from raw fastq files `Demonstrations/01_*.sh`, please install CellRanger using [these instructions](https://www.10xgenomics.com/support/software/cell-ranger/latest/tutorials/cr-tutorial-in).
 
-To run Demonstra
+To run all the other demo notebooks, follow the instructions below. 
 
 
 1. Install Docker or Singularity  
