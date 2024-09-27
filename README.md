@@ -33,6 +33,6 @@ To run all the other demo notebooks, follow the instructions below. It walks you
 	```
 	- Docker
 	```
-	docker run <image> jupyter lab
+	docker run -p 8888:8888 -v "$(pwd):/home/user" ghcr.io/andr-kun/scrnaseq2024-container:latest jupyter lab --allow-root
 	```
 	Note: Run the command while standing on this repo's root directory, or whichever directory you would like to be the root of Jupyter when it initialises.
