@@ -26,7 +26,7 @@ To run all the other demo notebooks, follow the instructions below. It walks you
 	docker pull ghcr.io/andr-kun/scrnaseq2024-container:latest
 	```  
 	- Alternatively, build the image using [Andrian’s Dockerfile](https://github.com/andr-kun/scRNAseq2024-container/blob/main/Dockerfile).
-3. Run the jupyter lab using the image you built, either using Docker or Singularity. If Singularity, you run it the same way we call it during the sessions.
+3. Run Jupyter lab using the image you built, either using Docker or Singularity. If Singularity, you run it the same way we call it during the course sessions.
 	- Singularity
 	```
 	singularity exec scrnaseq2024.sif jupyter lab
@@ -35,3 +35,4 @@ To run all the other demo notebooks, follow the instructions below. It walks you
 	```
 	docker run <image> jupyter lab
 	```
+	Note: Run the command while standing on this repo's root directory, or whichever directory you would like to be the root of Jupyter when it initialises.
